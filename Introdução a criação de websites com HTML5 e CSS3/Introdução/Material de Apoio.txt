@@ -283,7 +283,15 @@ A terceira forma é com as propriedades específicas para cada lado, até agora 
 
 Essa opção é mais usada quando temos o mesmo valor para 3 lados, e o quarto precisa ter um valor diferente, então usamos o padding com apenas um valor e uma dessas opções para representar o lado diferente.
 
- 
+ ![image-20220721154835007](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721154835007.png)
+
+![image-20220721154852830](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721154852830.png)
+
+![image-20220721154926100](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721154926100.png)
+
+![image-20220721154940201](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721154940201.png)
+
+
 
 ### Background
 
@@ -297,9 +305,21 @@ E aqui temos 3 formas de colocar uma cor de fundo, e ainda existem outras.
 
 A primeira é pelo nome da cor em inglês, a segunda é pelo código hexadecimal e a terceira é usando apenas o atalho *background*.
 
- 
+ ![image-20220721154954679](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721154954679.png)
+
+![image-20220721155009100](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721155009100.png)
+
+![image-20220721155416550](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721155416550.png)
+
+![image-20220721155432882](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721155432882.png)
+
+![image-20220721155606614](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721155606614.png)
+
+#### border-radius: 50%; transforma objeto quadrado em círculo.
 
 ### Border
+
+#### estudar em mozilla development network
 
 Vimos que a propriedade *border* pode ter 3 valores: a largura, a cor e o estilo, mas existem algumas particularidades nisso.
 
@@ -329,6 +349,12 @@ E a última propriedade é o *border-radius*, ele permite arredondar os cantos d
 
 Colocando apenas um valor mudamos todos os cantos do elemento, mas seguindo aquela mesma ordem que vimos no *padding* e *margin* - topo, direita, inferior e esquerda - conseguimos alterar cada canto separadamente.
 
+![image-20220721155037684](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721155037684.png)
+
+![image-20220721155055293](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721155055293.png)
+
+
+
 ###  
 
 ### Exercício
@@ -357,7 +383,9 @@ Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da i
 
 Essas fontes são chamadas assim pois são encontradas em quases todos os sistemas e podem ser usadas sem preocupação.
 
- 
+ ![image-20220721160745873](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721160745873.png)
+
+
 
 ### font-size
 
@@ -368,3 +396,24 @@ O font-size nos ajuda a mudar o tamanho do texto, existem algumas unidades de me
 ### font-style
 
 Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor *italic* para ele, mas se precisar tirar o itálico de um texto você pode usar o valor *normal*.
+
+![image-20220721160838407](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721160838407.png)
+
+![image-20220721160915431](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721160915431.png)
+
+![image-20220721160933062](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721160933062.png)
+
+![image-20220721160950119](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721160950119.png)
+
+## Estilizando Listas
+
+![image-20220721161501572](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721161501572.png)
+
+![image-20220721161540420](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721161540420.png)
+
+## Dimensão e alinhamento
+
+![image-20220721162030343](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220721162030343.png)
+
+**é possível utilizar porcentagens para se tornar uma medida variável com a janela**
+
