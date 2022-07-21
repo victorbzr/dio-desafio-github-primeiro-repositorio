@@ -12,3 +12,4 @@ git push -> empurra repositório local para o GitHub
 git pull -> caso exista conflitos pode ser necessário puxar as demais alterações
 onde o git mescla tudo que for possível e devemos fazer as alterações em conflitos
 que ocorram na mesma linha e posteriormente fazer um novo push.
+git clone -> clona um repositório do GitHub para o repositório local.
