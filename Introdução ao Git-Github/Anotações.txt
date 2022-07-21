@@ -1,0 +1,14 @@
+Link para download do Git: https://git-scm.com/downloads
+O Git Bash é um terminal extendido para otimizar o uso do Git
+
+Principais comandos Windows:
+Ctrl + L -> limpa o terminal
+git init -> inicia um novo repositório local
+git add -> adiciona arquivo à staging area (modificador * adiciona todos os arquivos alterados, também pode ser . ou -A)
+git status -> verifica status do repositório para fazer o commit
+git commit -> comita as alterações para o repositório local (modificador -m
+adiciona uma mensagem ao commit, utilizada para indicar as alterações realizadas)
+git push -> empurra repositório local para o GitHub
+git pull -> caso exista conflitos pode ser necessário puxar as demais alterações
+onde o git mescla tudo que for possível e devemos fazer as alterações em conflitos
+que ocorram na mesma linha e posteriormente fazer um novo push.
