@@ -1,0 +1,70 @@
+# CSS Flex Box
+
+#### Objetivo: Construção de páginas que se adaptam a várias resoluções.
+
+## Estrutura básica
+
+![image-20220722141008879](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722141008879.png)
+
+## Propriedades
+
+![image-20220722141023576](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722141023576.png)
+
+![image-20220722141244007](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722141244007.png)
+
+## Propriedades relacionadas aos Flex Items
+
+![](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722141333358.png)
+
+## Ferramentas
+
+- html snippet
+- html previewer
+
+# Fundamentos
+
+## Parte 1 - Flex Container
+
+
+
+### Display Flex (Display: flex;)
+
+- Propriedade de inicialização do flex container
+
+![image-20220722142109841](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722142109841.png)
+
+### Flex Direction
+
+- Estabelece eixos dentro do container
+
+![image-20220722151619753](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722151619753.png)
+
+![image-20220722151629044](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722151629044.png)
+
+![image-20220722151640262](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722151640262.png)
+
+![image-20220722151650689](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722151650689.png)
+
+## Flex-wrap
+
+- define se os itens devem ou não quebrar a linha
+
+![image-20220722153409771](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722153409771.png)
+
+![image-20220722153433848](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722153433848.png)
+
+![image-20220722153519580](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722153519580.png)
+
+## Flex Flow
+
+- um atalho para flex-direction e flex-wrap
+
+## Justify Content
+
+- Alinhar os itens dentro do container de acordo com a direção pretendida, além de tratar da distribuição e espaçamento entre eles.
+
+**OBS:** Caso seus itens estejam ocupando 100% do container ela não se aplica.
+
+![image-20220722160855240](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220722160855240.png)
+
+Left, Right, Normal, Stretch - geralmente não utilizados para flexbox
