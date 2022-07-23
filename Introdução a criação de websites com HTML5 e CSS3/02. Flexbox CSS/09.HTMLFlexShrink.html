@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fundamentos - Flex Shrink</title>
+    <style>
+        .container{
+            display:flex;
+            border:1px solid black;
+            max-width: 350px;
+            margin-bottom: 10px;
+        }
+        .item{
+            background-color:orangered;
+            margin: 5px;
+            text-align:center;
+            font-size: 24px;
+        }
+        .s-3 {
+            flex-shrink: 3;
+            flex-basis: 100px;
+        }
+        .s-2 {
+            flex-shrink: 2;
+            flex-basis:100px;
+        }
+        .s-1{
+            flex-shrink: 1;
+        }
+        .s-0{
+            flex-shrink: 0;
+            flex-basis: 200px;
+        }
+        fg-0{
+            flex-grow: 0;
+        }
+        .fg-1{
+            flex-grow: 1;
+        }
+        .fg-2{
+            flex-grow: 2;
+        }
+        .b-0{
+            flex-basis: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>flex-shrink 1</h1>
+    <div class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">DEF</div>
+    </div>
+    <div class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB</div>
+        <div class="item s-1 fg-1">CCCCCCCCCCCC CCCCCCCCCC</div>
+        <div class="item s-1 fg-1">CCCCCCCCCCCC CCCCCCCCCC</div>
+        <div class="item s-1 fg-1">CCCCCCCCCCCC CCCCCCCCCC</div>
+        <div class="item s-1 fg-1">CCCCCCCCCCCC CCCCCCCCCC</div>
+        <div class="item s-1 fg-1">DEF GGGGGGGGGG</div>
+    </div>
+    <h1>flex-shrink 0 + basis:100px</h1>
+    <div class="container">
+        <div class="item s-0 fg-1">A</div>
+        <div class="item s-0 fg-1">BBBBBBBBB BBBBBBBBBBBBBB BBBBBBBBBBBBBB BB</div>
+        <div class="item s-0 fg-1">CCCCCCCCCCCC CCCCCCCCCC</div>
+        <div class="item s-0 fg-1">DEF GGGGGGGGGG</div>
+    </div>
+    <h1>flex-shrink 0 + basis:100px</h1>
+    <div class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">BBBBBBBBB BBBBBBBBBBBBBB BBBBBBBBBBBBBB BB</div>
+        <div class="item s-2 fg-1">CCCCCCCCCCCC CCCCCCCCCC</div>
+        <div class="item s-1 fg-1">DEF GGGGGGGGGG</div>
+    </div>
+</body>
+</html>
