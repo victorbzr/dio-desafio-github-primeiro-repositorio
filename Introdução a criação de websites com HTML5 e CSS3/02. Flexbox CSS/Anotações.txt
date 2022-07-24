@@ -107,3 +107,15 @@ Left, Right, Normal, Stretch - geralmente não utilizados para flexbox
 
 ![image-20220723102413880](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220723102413880.png)
 
+## Order
+
+- ordena os flex itens
+
+## Align-self
+
+![image-20220723104519867](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220723104519867.png)
+
+- não funciona com align-items
+
+![image-20220723104621010](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220723104621010.png)
+
