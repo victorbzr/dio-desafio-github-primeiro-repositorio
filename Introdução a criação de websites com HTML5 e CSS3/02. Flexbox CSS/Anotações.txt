@@ -102,4 +102,8 @@ Left, Right, Normal, Stretch - geralmente não utilizados para flexbox
 ## Flex-shrink
 
 - estabelece a capacidade de redução ou compressão do tamanho de um item.
-- 
+
+## Flex
+
+![image-20220723102413880](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220723102413880.png)
+
